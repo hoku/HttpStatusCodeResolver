@@ -1,0 +1,20 @@
+{
+    "name": "hoku-lib/httpstatuscoderesolver",
+    "type": "library",
+    "description": "HttpStatusCodeResolver is a library for obtaining information on the HTTP status code.",
+    "keywords": ["httpstatuscode", "http", "statuscode", "httpstatuscoderesolver", "php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "hoku",
+            "email": "info.mbtl@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "autoload": {
+        "psr-0": {"HttpStatusCodeResolver": "src/"}
+    }
+}
